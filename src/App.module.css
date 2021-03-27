@@ -1,0 +1,99 @@
+
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: #282c34;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app_container {
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid var(--color-white);
+  border-radius: 0 8px 0 8px;
+  padding: 0.5rem 0 ;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app_title {
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  font-family: 'Indie Flower', cursive;
+}
+
+.app_form {
+  width: 100%;
+  padding: 0 1rem;
+  border: 1px solid red;
+}
+
+.app_fieldset {
+  margin: 0.5rem 0;
+  border: 1px solid var(--color-gray);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+}
+
+.app_legend {
+  color: var(--color-gray);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  
+}
+
+.app_label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  color: var(--color-white);
+}
+
+.app_input {
+  display: block;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
