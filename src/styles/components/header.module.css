@@ -6,14 +6,10 @@
     background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  
     background: linear-gradient(to right, #2F80ED, #56CCF2);
     text-align: center;
-
-    /* background: #000046;  
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
-    background: linear-gradient(to right, #1CB5E0, #000046);  */
 }
 
 .header_title {
-    font-size: 1.6rem;
+    font-size: 3rem;
     color: var(--color-white);
     font-family: 'Indie Flower', cursive;
     letter-spacing: 3px;
@@ -21,6 +17,6 @@
 
 @media(max-width: 600px) {
     .header_title {
-        font-size: 1.2rem;
+        font-size: 2.2rem;
     }
 }

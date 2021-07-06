@@ -7,12 +7,12 @@
 
 .form {
     position: relative;
-    width: 27rem;
-    height: 22rem;
+    width: 30rem;
+    height: 33rem;
     background-color: var(--color-white);
     transform: translateY(-10px);
-    border-radius: 5px;
-    padding: 0.2rem 4rem;
+    border-radius: 15px 0 15px 0;
+    padding: 0.2rem 3rem;
 }
 
 @media(max-width: 600px) {
@@ -26,14 +26,14 @@
 .calculator {
     position: absolute;
     right: -18px;
-    top: -20px;
-    max-width: 60px;
+    top: -30px;
+    max-width: 75px;
 }
 
 @media(max-width: 600px) {
     .calculator {
         right: -5px;
-        max-width: 50px;
+        max-width: 70px;
     }
 }
 
@@ -56,7 +56,7 @@
 .legend {
     display: block;
     width: 100%;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 1px;
     color: var(--color-text-title);
@@ -67,32 +67,33 @@
 
 @media(max-width: 600px) {
     .legend{
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
 }
 
 .label {
     display: block;
     width: 100%;
-    font-size: 0.5rem;
+    font-size: 1.1rem;
     letter-spacing: 0.5px;
     color: var(--color-text);
+    margin: 5px 0 ;
 }
 
 .input {
     width: 100%;
     background: var(--color-input);
     border: 1px solid var(--color-line);
-    padding: 0.4rem;
+    padding: 15px 10px ;
     border-radius: 4px;
     color: var(--color-text-input);
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     outline: none;
     letter-spacing: 0.5px;
 }
 
 .input::placeholder {
-    font-size: 0.5rem;
+    font-size: 1rem;
     opacity: 0.5;
 }
 
@@ -106,7 +107,7 @@
 @media(max-width: 600px) {
     .containerButton {
         flex-direction: column;
-        margin: 0.5rem 0;
+        margin: 1.8rem 0;
     }
 }
 
@@ -114,13 +115,14 @@
     position: relative;
     flex-basis: 55%;
     text-align: center;
-    padding: 0.4rem 0;
+    padding: 10px 0;
     border: none;
     border-radius: 4px;
     background-color: var(--color-secondary);
     color: var(--color-white);
+    font-size: 1.3rem;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     outline: none;
     cursor: pointer;
     transition: 300ms ease;
@@ -151,31 +153,44 @@
 @media(max-width: 600px) {
     .containerButton_title{
         order: 0;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.8rem;
     }
 }
 
 .containerButton_title img {
     display: block;
-    max-width: 15px;
-    margin-right: 0.2rem;
+    max-width: 40px;
+    margin-right: 0.3rem;
+}
+
+@media(max-width: 600px) {
+    .containerButton_title img {
+        width: 80px;
+        margin-right: 0.4rem;
+    }
 }
 
 .containerButton_title span {
-    font-size: 0.4rem;
-    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 0.5rem;
     color: var(--color-text);
 }
 
+@media(max-width: 600px) {
+    .containerButton_title span {
+        font-size: 0.7rem;
+    }
+}
+
 .novoSalario {
-    font-size: 0.6rem;
-    letter-spacing: 0.5px;
-    margin: 1.1rem 0;
+    font-size: 1.2rem;
+    margin: 1.4rem 0;
+    text-align: center;
 }
 
 @media(max-width: 600px) {
     .novoSalario {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 }
 
