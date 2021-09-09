@@ -2,13 +2,16 @@
 
 <h3> Status: Finalizado ❗ </h3>
 
-<p> Feliz com seu novo aumento de Salário. mas preocupado em calcular porcentagem?! te apresento o aplicativo <strong> Cálculo salarial </strong> </p>
+<p> Feliz com seu novo aumento de Salário,mas preocupado em calcular porcentagem. te apresento o aplicativo <strong> Cálculo salarial </strong> </p>
 
-![image1](https://user-images.githubusercontent.com/66790414/127574403-e13a2060-0372-4674-9ddd-7bd5cbdb01eb.PNG)
-
-<h5> Tecnologias: </h5>
+<h2> Tecnologias: </h2>
 
 + Html
 + Css
 + JavaScript
 + React
+
+![cal1](https://user-images.githubusercontent.com/66790414/132770548-5aff8ed9-b1f6-48e3-ae76-de38fd5d9c3d.PNG)
+
+![cal2](https://user-images.githubusercontent.com/66790414/132770639-4a4134a2-1ea9-4eb6-9373-1447b1221b0d.PNG)
+
