@@ -15,3 +15,9 @@
 
 ![cal2](https://user-images.githubusercontent.com/66790414/132770639-4a4134a2-1ea9-4eb6-9373-1447b1221b0d.PNG)
 
+<h2> Responsivo: </h2>
+
+![cal3](https://user-images.githubusercontent.com/66790414/132779919-e35a7463-8f3d-43f2-a4af-25422e1ecb89.PNG)
+
+![cal4](https://user-images.githubusercontent.com/66790414/132780006-a0c314c0-5978-4335-8275-cf0cd582e40a.PNG)
+
