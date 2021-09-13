@@ -17,7 +17,7 @@
 
 <h2> Responsivo: </h2>
 
-![cal3](https://user-images.githubusercontent.com/66790414/132779919-e35a7463-8f3d-43f2-a4af-25422e1ecb89.PNG)
+![1](https://user-images.githubusercontent.com/66790414/133130093-b25c419a-9fe1-4eaf-bb0b-85d4b5ce7094.PNG)
 
-![cal4](https://user-images.githubusercontent.com/66790414/132780006-a0c314c0-5978-4335-8275-cf0cd582e40a.PNG)
+![2](https://user-images.githubusercontent.com/66790414/133130125-cf2d9e04-3360-4f71-a59b-88da62d42990.PNG)
 
