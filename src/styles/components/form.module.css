@@ -115,13 +115,13 @@
     position: relative;
     flex-basis: 55%;
     text-align: center;
-    padding: 10px 0;
+    padding: 13px 0;
     border: none;
     border-radius: 4px;
     background-color: var(--color-secondary);
     color: var(--color-white);
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1px;
     outline: none;
     cursor: pointer;
