@@ -34,12 +34,12 @@ function Form() {
 
                 <fieldset className={styles.fieldset}>
                     <label htmlFor="salary" className={styles.label}> Salário atual </label>
-                    <input type="number" id="salary" value={valueSalary} onChange={(e) => setValueSalary(Number(e.target.value))} className={styles.input} placeholder="Exemplo 1000,00"  required/>
+                    <input type="number" id="salary" value={valueSalary} onChange={(e) => setValueSalary(Number(e.target.value))} className={styles.input} placeholder="Exemplo: 1000"  required/>
                 </fieldset>
 
                 <fieldset className={styles.fieldset}>
-                    <label htmlFor="increase" className={styles.label}> Reajuste salário </label> 
-                    <input type="number"  value={valueIncrease}  onChange={(e)=> setValueIncrease(e.target.value)} id="increase" className={styles.input} min="0" placeholder="Exemplo 10" required/>
+                    <label htmlFor="increase" className={styles.label}> % Reajuste salário </label> 
+                    <input type="number"  value={valueIncrease}  onChange={(e)=> setValueIncrease(e.target.value)} id="increase" className={styles.input} min="0" placeholder="Exemplo: 10" required/>
                 </fieldset>
 
                 <div className={styles.containerButton}>
